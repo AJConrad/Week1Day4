@@ -13,6 +13,7 @@
 		494AE8A51CC00E3E009DBD7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 494AE8A31CC00E3E009DBD7A /* Main.storyboard */; };
 		494AE8A71CC00E3E009DBD7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 494AE8A61CC00E3E009DBD7A /* Assets.xcassets */; };
 		494AE8AA1CC00E3E009DBD7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 494AE8A81CC00E3E009DBD7A /* LaunchScreen.storyboard */; };
+		494AE8B21CC00EC0009DBD7A /* 6dcc5436-WordSetApple.csv in Resources */ = {isa = PBXBuildFile; fileRef = 494AE8B11CC00EC0009DBD7A /* 6dcc5436-WordSetApple.csv */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		494AE8A61CC00E3E009DBD7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		494AE8A91CC00E3E009DBD7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		494AE8AB1CC00E3E009DBD7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		494AE8B11CC00EC0009DBD7A /* 6dcc5436-WordSetApple.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "6dcc5436-WordSetApple.csv"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,8 @@
 				494AE89E1CC00E3E009DBD7A /* AppDelegate.m */,
 				494AE8A01CC00E3E009DBD7A /* ViewController.h */,
 				494AE8A11CC00E3E009DBD7A /* ViewController.m */,
+				494AE8C81CC00F0C009DBD7A /* Data */,
+				494AE8C71CC00EFC009DBD7A /* Images */,
 				494AE8A31CC00E3E009DBD7A /* Main.storyboard */,
 				494AE8A61CC00E3E009DBD7A /* Assets.xcassets */,
 				494AE8A81CC00E3E009DBD7A /* LaunchScreen.storyboard */,
@@ -77,6 +81,21 @@
 				494AE89B1CC00E3E009DBD7A /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		494AE8C71CC00EFC009DBD7A /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		494AE8C81CC00F0C009DBD7A /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				494AE8B11CC00EC0009DBD7A /* 6dcc5436-WordSetApple.csv */,
+			);
+			name = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +156,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				494AE8B21CC00EC0009DBD7A /* 6dcc5436-WordSetApple.csv in Resources */,
 				494AE8AA1CC00E3E009DBD7A /* LaunchScreen.storyboard in Resources */,
 				494AE8A71CC00E3E009DBD7A /* Assets.xcassets in Resources */,
 				494AE8A51CC00E3E009DBD7A /* Main.storyboard in Resources */,
@@ -303,6 +323,7 @@
 				494AE8B01CC00E3E009DBD7A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
